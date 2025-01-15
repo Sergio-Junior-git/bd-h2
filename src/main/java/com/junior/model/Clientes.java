@@ -20,24 +20,6 @@ public class Clientes {
     private String name;
 
     @Column(length = 200, nullable = true, unique = true)
-    private String email;
-
-    @Column(length = 200, nullable = true)
-    private String telefone;
-
-    @Column(length = 200, nullable = true)
-    private String cep;
-    
-    @Column(length = 200, nullable = true)
-    private String endereco;
-
-    @Column(length = 200, nullable = true)
-    private String bairro;
-
-    @Column(length = 200, nullable = true)
-    private String cidade;
-
-    @Column(length = 200, nullable = true)
-    private String estado;
+    private String category;
 
 }
